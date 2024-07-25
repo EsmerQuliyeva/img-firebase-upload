@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  letter-spacing: 2px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#fileInput {
+  display: none;
+}
+label {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(45deg, red, blue);
+  color: white;
+}
+.btn {
+  margin-top: 20px;
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.bar {
+  width: 500px;
+  height: 50px;
+  background: rgb(200, 198, 198);
+  margin-bottom: 15px;
+}
+.progress {
+  background: linear-gradient(12deg, red, blue);
+  height: 100%;
+  width: 0%;
+}
+.percentage {
+  font-size: 25px;
+  font-weight: 500;
+}
+.img{
+    height: 100px;
+    width: auto;
+    display: none;
+    object-fit: contain;
+    border: 5px solid cornflowerblue;
+}
